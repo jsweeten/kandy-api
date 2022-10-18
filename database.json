@@ -1,0 +1,556 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "isEmployee": false
+    },
+    {
+      "id": 2,
+      "fullName": "Windy Thorneloe",
+      "email": "wthorneloe1@usa.gov",
+      "isEmployee": false
+    },
+    {
+      "id": 3,
+      "fullName": "Hillie Phillpotts",
+      "email": "hphillpotts2@rakuten.co.jp",
+      "isEmployee": false
+    },
+    {
+      "id": 4,
+      "fullName": "Helenelizabeth Passfield",
+      "email": "hpassfield7@netvibes.com",
+      "isEmployee": true
+    },
+    {
+      "id": 5,
+      "fullName": "Franchot Slator",
+      "email": "fslator8@51.la",
+      "isEmployee": true
+    },
+    {
+      "id": 6,
+      "fullName": "Renaud Erbe",
+      "email": "rerbe9@psu.edu",
+      "isEmployee": false
+    },
+    {
+      "email": "jtsweeten@gmail.com",
+      "fullName": "Justin Sweeten",
+      "isEmployee": true,
+      "id": 7
+    },
+    {
+      "email": "KingofKingstontown@aol.com",
+      "fullName": "Bob Marley",
+      "isEmployee": false,
+      "id": 8
+    },
+    {
+      "email": "jeremy@bakker.com",
+      "fullName": "Jeremy Bakker",
+      "isEmployee": true,
+      "id": 9
+    },
+    {
+      "email": "moneyforshort@microsoft.com",
+      "fullName": "William Gates",
+      "isEmployee": false,
+      "id": 10
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 2,
+      "loyaltyNumber": 66666
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "loyaltyNumber": 54321
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "loyaltyNumber": 69696
+    },
+    {
+      "id": 4,
+      "userId": 6,
+      "loyaltyNumber": 54637
+    },
+    {
+      "id": 5,
+      "userId": 8,
+      "loyaltyNumber": 10101
+    },
+    {
+      "id": 6,
+      "userId": 10,
+      "loyaltyNumber": 86753
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "09/26/22",
+      "payRate": 15.49,
+      "userId": 4,
+      "storeAssignment": 1
+    },
+    {
+      "id": 2,
+      "startDate": "10/31/21",
+      "payRate": 10.49,
+      "userId": 5,
+      "storeAssignment": 2
+    },
+    {
+      "id": 3,
+      "startDate": "03/14/20",
+      "payRate": 12.69,
+      "userId": 7,
+      "storeAssignment": 1
+    },
+    {
+      "id": 4,
+      "startDate": "09/04/21",
+      "payRate": 11.5,
+      "userId": 9,
+      "storeAssignment": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "East Nashville",
+      "address": "3517 Gallatin Pike, Nashville TN 37206",
+      "size": 1600
+    },
+    {
+      "id": 2,
+      "name": "West End",
+      "address": "3415 West End Ave, Nashville TN 37203",
+      "size": 2400
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Jolly Ranchers",
+      "price": 2.29,
+      "productTypeId": 3
+    },
+    {
+      "id": 2,
+      "name": "Butterfinger",
+      "price": 2.49,
+      "productTypeId": 1
+    },
+    {
+      "id": 3,
+      "name": "Big League Chew",
+      "price": 3.69,
+      "productTypeId": 2
+    },
+    {
+      "id": 4,
+      "name": "Fruit Stripe",
+      "price": 1.19,
+      "productTypeId": 2
+    },
+    {
+      "id": 5,
+      "name": "Twix",
+      "price": 2.49,
+      "productTypeId": 1
+    },
+    {
+      "id": 6,
+      "name": "Werther's Original",
+      "price": 5.99,
+      "productTypeId": 3
+    },
+    {
+      "id": 7,
+      "name": "Skittles",
+      "price": 1.99,
+      "productTypeId": 3
+    },
+    {
+      "id": 8,
+      "name": "Baby Ruth",
+      "price": 2.49,
+      "productTypeId": 1
+    },
+    {
+      "id": 9,
+      "name": "Saltwater Taffy",
+      "price": 0.49,
+      "productTypeId": 4
+    },
+    {
+      "id": 10,
+      "name": "Starburst",
+      "price": 1.99,
+      "productTypeId": 4
+    },
+    {
+      "id": 11,
+      "name": "Now & Later",
+      "price": 1.19,
+      "productTypeId": 4
+    },
+    {
+      "id": 12,
+      "name": "Reese's Cup",
+      "price": 1.49,
+      "productTypeId": 1
+    },
+    {
+      "id": 13,
+      "name": "Laffy Taffy",
+      "price": 0.69,
+      "productTypeId": 4
+    },
+    {
+      "id": 14,
+      "name": "Gumballs",
+      "price": 0.25,
+      "productTypeId": 2
+    },
+    {
+      "id": 15,
+      "name": "Warheads",
+      "price": 0.45,
+      "productTypeId": 3
+    },
+    {
+      "id": 16,
+      "name": "Snickers",
+      "price": 2.29,
+      "productTypeId": 1
+    },
+    {
+      "id": 17,
+      "name": "Milky Way",
+      "price": 2.29,
+      "productTypeId": 1
+    },
+    {
+      "id": 18,
+      "name": "Candy Cane",
+      "price": 0.89,
+      "productTypeId": 3
+    },
+    {
+      "id": 19,
+      "name": "Nerds",
+      "price": 1.19,
+      "productTypeId": 3
+    },
+    {
+      "id": 20,
+      "name": "Razzles",
+      "price": 1.29,
+      "productTypeId": 2
+    },
+    {
+      "id": 21,
+      "name": "Bazooka Gum",
+      "price": 1.89,
+      "productTypeId": 2
+    },
+    {
+      "id": 22,
+      "name": "Airheads",
+      "price": 0.29,
+      "productTypeId": 4
+    },
+    {
+      "id": 23,
+      "name": "Tootsie Roll",
+      "price": 0.15,
+      "productTypeId": 4
+    },
+    {
+      "id": 24,
+      "name": "Sugar Babies",
+      "price": 1.19,
+      "productTypeId": 4
+    },
+    {
+      "name": "Lip Smackerz",
+      "price": "1.99",
+      "productTypeId": 4,
+      "id": 25
+    },
+    {
+      "name": "Sweet Tarts",
+      "price": 2.01,
+      "productTypeId": 3,
+      "id": 26
+    },
+    {
+      "name": "500 Grand",
+      "price": 2.49,
+      "productTypeId": 1,
+      "id": 27
+    },
+    {
+      "name": "Take Five",
+      "price": 2.49,
+      "productTypeId": 1,
+      "id": 28
+    },
+    {
+      "name": "Tic Tacs",
+      "price": 0.89,
+      "productTypeId": 2,
+      "id": 29
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Chocolate"
+    },
+    {
+      "id": 2,
+      "name": "Gum"
+    },
+    {
+      "id": 3,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 4,
+      "name": "Taffy"
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "productId": 24,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "productId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "productId": 23,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "productId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "productId": 22,
+      "locationId": 1
+    },
+    {
+      "id": 7,
+      "productId": 4,
+      "locationId": 2
+    },
+    {
+      "id": 8,
+      "productId": 21,
+      "locationId": 2
+    },
+    {
+      "id": 9,
+      "productId": 5,
+      "locationId": 2
+    },
+    {
+      "id": 10,
+      "productId": 20,
+      "locationId": 1
+    },
+    {
+      "id": 11,
+      "productId": 6,
+      "locationId": 2
+    },
+    {
+      "id": 12,
+      "productId": 19,
+      "locationId": 2
+    },
+    {
+      "id": 13,
+      "productId": 7,
+      "locationId": 2
+    },
+    {
+      "id": 14,
+      "productId": 18,
+      "locationId": 1
+    },
+    {
+      "id": 15,
+      "productId": 8,
+      "locationId": 2
+    },
+    {
+      "id": 16,
+      "productId": 17,
+      "locationId": 2
+    },
+    {
+      "id": 17,
+      "productId": 9,
+      "locationId": 1
+    },
+    {
+      "id": 18,
+      "productId": 16,
+      "locationId": 2
+    },
+    {
+      "id": 19,
+      "productId": 10,
+      "locationId": 2
+    },
+    {
+      "id": 20,
+      "productId": 15,
+      "locationId": 1
+    },
+    {
+      "id": 21,
+      "productId": 11,
+      "locationId": 2
+    },
+    {
+      "id": 22,
+      "productId": 14,
+      "locationId": 1
+    },
+    {
+      "id": 23,
+      "productId": 12,
+      "locationId": 1
+    },
+    {
+      "id": 24,
+      "productId": 13,
+      "locationId": 2
+    },
+    {
+      "id": 25,
+      "productId": 13,
+      "locationId": 1
+    },
+    {
+      "id": 26,
+      "productId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 27,
+      "productId": 24,
+      "locationId": 2
+    },
+    {
+      "id": 28,
+      "productId": 22,
+      "locationId": 2
+    },
+    {
+      "id": 29,
+      "productId": 17,
+      "locationId": 1
+    },
+    {
+      "id": 30,
+      "productId": 5,
+      "locationId": 1
+    },
+    {
+      "id": 31,
+      "productId": 8,
+      "locationId": 1
+    },
+    {
+      "id": 32,
+      "productId": 20,
+      "locationId": 2
+    },
+    {
+      "id": 33,
+      "productId": 6,
+      "locationId": 1
+    },
+    {
+      "id": 34,
+      "productId": 14,
+      "locationId": 2
+    },
+    {
+      "id": 35,
+      "productId": 3,
+      "locationId": 1
+    },
+    {
+      "id": 36,
+      "productId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 37,
+      "productId": 21,
+      "locationId": 1
+    },
+    {
+      "id": 38,
+      "productId": 20,
+      "locationId": 2
+    },
+    {
+      "id": 39,
+      "productId": 19,
+      "locationId": 1
+    },
+    {
+      "id": 40,
+      "productId": 25,
+      "locationId": 1
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 3,
+      "productId": 1,
+      "amount": 5
+    },
+    {
+      "id": 2,
+      "customerId": 5,
+      "productId": 5,
+      "amount": 12
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "productId": 4,
+      "amount": 7
+    }
+  ]
+}
