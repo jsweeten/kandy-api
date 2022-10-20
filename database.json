@@ -99,28 +99,28 @@
       "startDate": "09/26/22",
       "payRate": 15.49,
       "userId": 4,
-      "storeAssignment": 1
+      "locationId": 1
     },
     {
       "id": 2,
       "startDate": "10/31/21",
       "payRate": 10.49,
       "userId": 5,
-      "storeAssignment": 2
+      "locationId": 2
     },
     {
       "id": 3,
       "startDate": "03/14/20",
       "payRate": 12.69,
       "userId": 7,
-      "storeAssignment": 1
+      "locationId": 1
     },
     {
       "id": 4,
       "startDate": "09/04/21",
       "payRate": 11.5,
       "userId": 9,
-      "storeAssignment": 2
+      "locationId": 2
     }
   ],
   "locations": [
