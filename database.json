@@ -59,6 +59,18 @@
       "fullName": "William Gates",
       "isEmployee": false,
       "id": 10
+    },
+    {
+      "fullName": "Bob Marley",
+      "email": "bob@marley.com",
+      "isEmployee": true,
+      "id": 13
+    },
+    {
+      "fullName": "Peter Frampton",
+      "email": "peter@frampton.com",
+      "isEmployee": true,
+      "id": 14
     }
   ],
   "customers": [
@@ -121,6 +133,20 @@
       "payRate": 11.5,
       "userId": 9,
       "locationId": 2
+    },
+    {
+      "startDate": "2022-10-21",
+      "payRate": 9,
+      "locationId": 1,
+      "userId": 13,
+      "id": 7
+    },
+    {
+      "startDate": "2022-10-21",
+      "payRate": 10.75,
+      "locationId": 2,
+      "userId": 14,
+      "id": 8
     }
   ],
   "locations": [
